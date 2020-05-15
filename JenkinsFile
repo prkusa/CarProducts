@@ -14,11 +14,12 @@ pipeline {
          stage('testing stage') {
              steps {
                 bat "mvn test"
+             }
         }
     }
 
          
-    }
+    
 
   }
 
