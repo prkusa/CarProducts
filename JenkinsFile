@@ -7,7 +7,7 @@ node
    stage('Complie-Package')
    {
     	withMaven(maven : 'maven3')
-	sh 'mvn build'
+	sh 'mvn package'
     }
 
 }
