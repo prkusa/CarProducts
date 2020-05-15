@@ -7,7 +7,7 @@ node
    stage('Complie-Package')
    {
     set mvnHome =  tool name: 'maven3', type: 'maven'
-    echo %mvnHome%
+   
        bat "${mvnHome}\bin\mvn package"
     }
 
