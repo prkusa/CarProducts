@@ -1,0 +1,12 @@
+node
+{
+   stage('SCM Checkout')
+   {
+	    git 'https://github.com/prkusa/CarProducts'
+   }
+   stage('Complie-Package')
+   {
+    sh 'mvn package'
+    }
+
+}
