@@ -6,7 +6,7 @@ node
    }
    stage('Complie-Package')
    {
-    def mvnHome =  tool name: 'maven3', type: 'maven'
+    set mvnHome =  tool name: 'maven3', type: 'maven'
     echo %mvnHome%
        bat "${mvnHome}\bin\mvn package"
     }
