@@ -34,7 +34,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>http://localhost:9090/CarProducts/</url>
+         <url>http://localhost:9090/</url>
        </repository>
    </distributionManagement>
   
