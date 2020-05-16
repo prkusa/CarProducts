@@ -20,6 +20,7 @@ pipeline {
           stage('deployment stage') {
               steps {
                 bat "mvn deploy"
+                deploy adapters: [tomcat8(path: '', url: 'http://localhost:9090')], contextPath: '/CarProducts', war: 'CarProdcuts'
         }
     }
 
