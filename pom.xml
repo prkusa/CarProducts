@@ -29,6 +29,17 @@
             <scope>provided</scope>
         </dependency>
   </dependencies>
+  
+   <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>http://localhost:9090/CarProducts/</url>
+       </repository>
+   </distributionManagement>
+  
+  
+  
   <build>
     <finalName>CarProducts</finalName>
   </build>
